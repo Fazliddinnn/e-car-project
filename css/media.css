@@ -1,0 +1,107 @@
+@media (max-width: 1199.98px){
+    header h1{
+        font-size: 60px;   
+    }
+    header p{
+        font-size: 30px;
+    }
+}
+@media (max-width: 991.98px){
+    .navbar-collapse{
+        margin-top: 30px;
+    }
+    .navbar{
+        padding: 32px 30px;
+    }
+
+    header h1{
+        padding-top: 100px;
+        font-size: 35px;
+    }
+   
+    header p{
+        font-size: 22px;
+    }
+    .header-image {
+        width: inherit;   
+    }
+    .filter-main {
+        width: 700px;   
+        height: 380px;
+    }
+    .tab-pane form{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 10px;
+    }
+    .main-select {
+        width: 320px;   
+    }
+    form .label, button{
+        margin-top: 5px;
+    }
+    .label select[name],
+    .btn-search-main {
+        border-radius: 0;
+    }
+    .popular-car-card,
+    .category {
+        width: 330px;   
+    }
+    .navbar{
+        width: 685px;
+    }
+}
+@media (max-width: 767.98px){
+    .container {
+        max-width: 680px;   
+    }
+    .nav-half{
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        align-content: center;
+    }
+    .navbar {
+        padding: 32px 15px;
+    }
+    header h1{
+        font-size: 35px; 
+        padding-top: 50px;  
+    }
+    header p{
+        font-size: 18px;
+    }
+    
+    .filter-main {
+        width: inherit;
+        
+    }
+    .main-select {
+        width: 300px;      
+    }
+    .popular-car-card, .category {
+        width: 320px;   
+    }
+    
+}
+@media (max-width: 575.98px){
+    
+    .navbar {
+        padding: 32px 0px;
+    }
+    header h1{
+        font-size: 25px; 
+        padding-top: 10px;  
+    }
+    header p{
+        font-size: 14px;
+    }
+    
+    .filter-main{
+        margin-top: 20px;
+    }
+    /* .navbar{
+        width: 685px;
+    } */
+}
